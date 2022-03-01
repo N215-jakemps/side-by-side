@@ -1,0 +1,77 @@
+.about{
+    margin-top: 110px;
+    margin-bottom: 108px;
+
+    .about-header {
+
+        .header-title{
+            font-weight: bold;
+            font-size: 48px;
+            margin-bottom: -2px;
+        }
+        hr {
+            width: 171px;
+            border: 1px solid;
+        }
+
+        .header-content{
+            margin-top: 10px;
+        }
+
+    }
+
+    .about-clientquotes {
+
+        .quotes-title{
+            font-size: 36px;
+            margin-top: 107px;
+            margin-bottom: -1px;
+        }
+
+        hr {
+            width: 171px;
+            border: 1px solid;
+
+            margin-bottom: 10px;
+        }
+
+        .quotes-person{
+            max-width: 722px;
+            position: relative;
+
+            display: flex;
+
+            margin-bottom: 37px;
+
+            .person-image {
+                width: 260px;
+                height: 150px;
+                overflow: hidden;
+
+                margin-right: 21px;
+
+            }
+
+            .person-text {
+                width: 440px;
+                margin-bottom: 10px;
+            }
+
+            .person-name{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 900px) {
+    .about{
+        .about-clientquotes{
+            .quotes-person{
+                flex-direction: column;
+            }
+        }
+    }
+}

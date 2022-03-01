@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "serve": "live-server",
+    "server": "live-server",
     "compile:sass": "sass scss/styles.scss css/styles.css -w"
   },
   "keywords": [],

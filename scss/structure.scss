@@ -16,3 +16,12 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+
+#app{
+  max-width: $content-width;
+  //min-height: 200px;
+  margin: 0 auto;
+
+  //background-color: salmon;
+}

@@ -1,0 +1,26 @@
+nav {
+    max-width: $content-width;
+    min-height: $footer-nav-height;
+
+    background-color: $site-background;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        width: 100px;
+        height: 50px;
+
+        background-color: salmon;
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+        }
+    }
+}
