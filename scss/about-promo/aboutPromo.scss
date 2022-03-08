@@ -1,0 +1,30 @@
+.about-promo{
+    max-width: $content-width;
+    min-height: 304px;
+
+    background-color: salmon;
+
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .promo{
+       
+        @include promo(burlywood);
+
+        .promo-text{
+            font-size: 24px;
+            //color: purple;
+            font-family: cursive;
+
+            margin-bottom: 60px;
+        }
+
+        .read-btn{
+            @include site-button(20px 0 5px 2px, 20px 20px);
+        }
+    }
+}

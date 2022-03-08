@@ -1,0 +1,21 @@
+@mixin promo($bgColor: #f9e0bf){
+    height: 304px;
+    width: 235px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $bgColor;
+}
+
+@mixin site-button($btnRadius: 5px, $btnPadding: 5px 15px){
+    background-color: $site-background;
+    padding: $btnPadding;
+    border-radius: $btnRadius;
+
+    color: white;
+
+    cursor: pointer;
+}

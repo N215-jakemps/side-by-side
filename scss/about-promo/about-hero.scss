@@ -1,0 +1,31 @@
+.about-hero{
+
+    max-width: $content-width;
+    height: 300px;
+
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(../images/7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    .about-hero-text{
+        font-size: 50px;
+        color: white;
+
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .about-price-text{
+        font-size: 20px;
+        color: white;
+        font-style: italic;
+
+        position: absolute;
+        bottom: -6px;
+        right: 10px;
+    }
+}

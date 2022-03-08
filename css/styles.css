@@ -57,6 +57,63 @@ footer .footer-content {
   justify-content: center;
 }
 
+.about-promo {
+  max-width: 980px;
+  min-height: 304px;
+  background-color: salmon;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-promo .promo {
+  height: 304px;
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+.about-promo .promo .promo-text {
+  font-size: 24px;
+  font-family: cursive;
+  margin-bottom: 60px;
+}
+.about-promo .promo .read-btn {
+  background-color: #79addc;
+  padding: 20px 20px;
+  border-radius: 20px 0 5px 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.about-hero {
+  max-width: 980px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.about-hero .about-hero-text {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero .about-price-text {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  position: absolute;
+  bottom: -6px;
+  right: 10px;
+}
+
 .about {
   margin-top: 110px;
   margin-bottom: 108px;
